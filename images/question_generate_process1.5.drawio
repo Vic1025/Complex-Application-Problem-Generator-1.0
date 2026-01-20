@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.3">
+  <diagram name="第 1 页" id="Pofsa4eaUMaERlEGY1B6">
+    <mxGraphModel dx="1218" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-8" edge="1" parent="1" source="gOAcqlgYO5wlTgHdHwWj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gOAcqlgYO5wlTgHdHwWj-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="Generate Random Variables" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#36393d, #0e4e1e);dashed=1;perimeterSpacing=21;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="80" width="270" x="430" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="Generate Final Answer" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-11" edge="1" parent="1" source="gOAcqlgYO5wlTgHdHwWj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gOAcqlgYO5wlTgHdHwWj-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="Match Entity with Content" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-12" edge="1" parent="1" source="gOAcqlgYO5wlTgHdHwWj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gOAcqlgYO5wlTgHdHwWj-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="Organize into Question" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-10" edge="1" parent="1" source="gOAcqlgYO5wlTgHdHwWj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gOAcqlgYO5wlTgHdHwWj-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="Generate Random Computing Process" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-9" edge="1" parent="1" source="gOAcqlgYO5wlTgHdHwWj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gOAcqlgYO5wlTgHdHwWj-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="Generate Dependency between Random Variables" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="gOAcqlgYO5wlTgHdHwWj-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="330" as="sourcePoint" />
+            <mxPoint x="390" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Pre-collected Entity Library&lt;br&gt;(context without dependency)" vertex="1">
+          <mxGeometry height="30" width="190" x="545" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-15" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffcc99;strokeColor=#36393d;" value="List" vertex="1">
+          <mxGeometry height="60" width="70" x="605" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-16" parent="gOAcqlgYO5wlTgHdHwWj-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=8;" value="Item 1" vertex="1">
+          <mxGeometry height="30" width="70" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gOAcqlgYO5wlTgHdHwWj-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;fontStyle=1" value="Question Generation Process&amp;nbsp; Version 1.5" vertex="1">
+          <mxGeometry height="30" width="290" x="445" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -79,17 +79,14 @@ Sample datasets with varying complexity:
 
 **Generated Problem:**
 
-> At Sunshine Elementary School's Graduation Day, the administration needs to calculate certificates needed. The school has 20 total students, 26 enrolled in the ceremony, 5 transferred, and 1 failed requirements. Students who completed all courses = 40 + dropouts. Students with honors = half of total students. Dropouts = enrolled - failed students. Eligible students = completed all requirements - transferred. Total requirements = completed courses + honors. Certificates needed = eligible students + 50.
+At an elementary school, students are working on a large collaborative project involving six teams: Art, Science, Math, History, Physical Education, and Music. Each team is responsible for completing specific tasks to advance the overall project. The principal wants to track both individual team progress and the project's total progress. The Art, Science, and Math teams have made significant contributions, while the History and PE teams are also working hard. The principal has set a goal for the total number of tasks to be completed and wants to understand the current status. Here's what we know:
 
-**Solution Path:**
-```
-1. Dropouts = 26 - 1 = 25
-2. Honors = 20 / 2 = 10
-3. Completed courses = 25 + 40 = 65
-4. Total completed = 65 + 10 = 75
-5. Eligible = 75 - 5 = 70
-6. Certificates = 70 + 50 = 120
-```
+The Science team has completed 10 experiments. The PE team's progress equals 6 tasks. The Math team has completed 12 tasks. The Music team's progress equals 14 tasks. The History team has completed 3 tasks. The principal set an initial task count of 10. The combined progress of the Math and History teams is 9 tasks.
+
+The principal also knows the following:
+
+The total completed tasks exceed the initial task count by 19. The remaining tasks are 21 fewer than the total completed tasks. Half of the remaining tasks contributes to the total progress calculation. The Art team's progress equals the sum of the combined progress from Science, Math, and History teams, plus the PE team's progress. The difference between the Math and History teams' progress equals the difference between their combined progress and the History team's progress alone. The school project's total progress is the sum of half the remaining tasks, the Art team's progress, and the Music team's progress.
+Can you calculate the total progress of the school project?
 
 ## Training Results
 
